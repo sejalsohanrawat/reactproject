@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Lexend:wght@100..900&display=swap");
+
+.bottompart {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  @media screen and (max-width: 1155px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media screen and (max-width: 900px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.line2 {
+  display: flex;
+  width: 98px;
+
+  height: 4px;
+  background-color: #9e2349;
+  flex-direction: column;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.aboutus {
+  margin-left: -59px;
+  h1 {
+    gap: 2px;
+    color: #9e2349;
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+    align-items: stretch;
+    font-size: 20px;
+  }
+}
+.lillypad {
+  font-size: 18px;
+  h1 {
+    color: #2f3130;
+
+    font-family: "DM Serif Display";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+  }
+}
+
+.investorheading {
+  height: 29px;
+}
+.investorlogo {
+}
+.investorlogoheading {
+  margin-left: 44px;
+
+  color: #2f3130;
+  font-family: Lexend;
+  font-size: 18px;
+  font-style: normal;
+
+  line-height: 160%;
+}
+.investorinfo {
+  margin-left: 24px;
+  color: #2f3130;
+  font-family: Lexend;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  p {
+    margin-top: -1px;
+  }
+}
+
+.bottom1 {
+  padding: 30px;
+  border-right: 1px solid black;
+
+  @media screen and (max-width: 1155px) {
+    border: none;
+    padding: 23px 38px 30px 10px;
+  }
+  about {
+    display: flex;
+    align-items: center;
+  }
+}
+.bottom2 {
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+
+  padding: 30px;
+  @media screen and (max-width: 1155px) {
+    padding: 23px 38px 30px 10px;
+    border: none;
+  }
+}
+.bottom3 {
+  padding: 30px;
+  display: flex;
+
+  flex-direction: column;
+  @media screen and (max-width: 1155px) {
+    padding: 23px 38px 30px 10px;
+    border: none;
+  }
+}
+.bottom4 {
+  padding: 52px;
+
+  border-top: 1px solid black;
+
+  @media screen and (max-width: 1155px) {
+    padding: 23px 38px 30px 10px;
+    border: none;
+  }
+}
+.bottom5 {
+  padding: 52px;
+
+  border-left: 1px solid black;
+
+  @media screen and (max-width: 1155px) {
+    padding: 23px 38px 30px 10px;
+    border: none;
+  }
+}
+.bottom6 {
+  padding: 52px;
+
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  @media screen and (max-width: 1155px) {
+    padding: 23px 38px 30px 10px;
+    border: none;
+  }
+}
+.decisionheading {
+  color: #2f3130;
+  font-family: Lexend;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+}
+.decisionlogoheading {
+  padding-left: 20px;
+  height: 29px;
+}
+.decisioninfo {
+  margin-left: 24px;
+  color: #2f3130;
+  font-family: Lexend;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.logobox2 {
+  display: flex;
+  flex-direction: row;
+
+  align-content: space-between;
+  justify-content: flex-start;
+  align-items: center;
+}
+.investerlogo {
+  img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+  }
+}
